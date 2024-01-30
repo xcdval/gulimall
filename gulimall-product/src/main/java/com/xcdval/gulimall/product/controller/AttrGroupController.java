@@ -3,7 +3,7 @@ package com.xcdval.gulimall.product.controller;
 import java.util.Arrays;
 import java.util.Map;
 
-import org.apache.shiro.authz.annotation.RequiresPermissions;
+//import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,7 +23,7 @@ import com.xcdval.common.utils.R;
  *
  * @author xcdval
  * @email veenxx@outlook.com
- * @date 2024-01-29 21:02:55
+ * @date 2024-01-29 22:32:48
  */
 @RestController
 @RequestMapping("product/attrgroup")

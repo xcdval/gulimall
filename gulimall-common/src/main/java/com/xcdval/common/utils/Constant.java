@@ -8,9 +8,9 @@
 
 package com.xcdval.common.utils;
 
-import io.renren.common.validator.group.AliyunGroup;
-import io.renren.common.validator.group.QcloudGroup;
-import io.renren.common.validator.group.QiniuGroup;
+import com.xcdval.common.utils.AliyunGroup;
+import com.xcdval.common.utils.QcloudGroup;
+
 
 import java.util.Optional;
 import java.util.stream.Stream;
@@ -113,7 +113,7 @@ public class Constant {
         /**
          * 七牛云
          */
-        QINIU(1, QiniuGroup.class),
+//        QINIU(1, QiniuGroup.class),
         /**
          * 阿里云
          */
